@@ -5,13 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
   <style>
-    body {
+    html, body {
       margin: 0;
-      background-color: #1e1e1e; /* Dark background for contrast */
+      padding: 0;
+      height: 100%;
+      background-color: transparent; /* Transparent background */
+    }
+
+    .container {
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      height: 100vh; /* Full viewport height */
     }
 
     .neon-button {
@@ -54,8 +59,10 @@
   </style>
 </head>
 <body>
-  <button class="neon-button" onclick="window.location.href='https://shop.sweetvenom.great-site.net/about-us';">
-    Go Back
-  </button>
+  <div class="container">
+    <button class="neon-button" onclick="window.location.href='https://shop.sweetvenom.great-site.net/about-us';">
+      Go Back
+    </button>
+  </div>
 </body>
 </html>
